@@ -1,0 +1,5 @@
+outs:
+- md5: 6df9f72ba172da26e14b2bc0f52acc52
+  size: 343759
+  hash: md5
+  path: hn_comment_chunks.parquet

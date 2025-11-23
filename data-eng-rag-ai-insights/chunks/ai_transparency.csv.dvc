@@ -1,0 +1,5 @@
+outs:
+- md5: de5cdf50e5ab575b6c53026a95bbf403
+  size: 1738542
+  hash: md5
+  path: ai_transparency.csv

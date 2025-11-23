@@ -1,0 +1,5 @@
+outs:
+- md5: 5e223f18ee8713849d9d49d8686a2b0b
+  size: 2634351
+  hash: md5
+  path: crypto_posts_dvc.json

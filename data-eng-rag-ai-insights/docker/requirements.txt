@@ -1,0 +1,27 @@
+# Web app
+flask==3.0.2
+python-dotenv==1.0.1
+requests==2.31.0
+
+# Logging
+neptune==1.13.0
+
+# LangChain ecosystem
+langchain==0.3.22
+langchain-core==0.3.49
+langchain-community==0.3.20
+langchain-text-splitters==0.3.7
+
+# Embeddings
+sentence-transformers==4.0.1
+transformers==4.50.3
+huggingface-hub==0.30.1
+
+# Vector store
+chromadb==0.6.3
+
+# Utilities
+pandas==2.2.3
+PyYAML==6.0.2
+
+gunicorn==21.2.0

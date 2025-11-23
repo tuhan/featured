@@ -1,0 +1,5 @@
+outs:
+- md5: 1611a8b022a2624d2b187ee92f4067b9
+  size: 47525
+  hash: md5
+  path: hn_story_chunks.parquet

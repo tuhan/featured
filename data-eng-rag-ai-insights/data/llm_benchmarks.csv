@@ -1,0 +1,371 @@
+Model,Type,Class,Backend,Dtype,Optimizations,Throughput (tokens/s),Peak Memory (MB),Score (%)
+bofenghuang/vigogne-2-7b-instruct,LLaMA ,7B,pytorch,float16,BetterTransformer,39.2,14925,58.2
+bofenghuang/vigogne-2-7b-instruct,LLaMA ,7B,pytorch,float16,BetterTransformer,39.2,14925,58.2
+HuggingFaceH4/starchat-beta,GPT-BigCode ,20B,pytorch,float16,None,43.9,31745,55.8
+bofenghuang/vigogne-2-7b-instruct,LLaMA ,7B,pytorch,float32,None,36.5,27811,58.2
+NousResearch/Nous-Hermes-Llama2-13b,LLaMA ,10B,pytorch,float16,BetterTransformer,30,27069,62.6
+HuggingFaceH4/starchat-beta,GPT-BigCode ,20B,pytorch,float16,LLM.fp4,39.5,11221,55.8
+bofenghuang/vigogne-2-7b-instruct,LLaMA ,7B,pytorch,float16,None,33.8,14925,58.2
+mosaicml/mpt-30b-chat,MPT,30B,pytorch,float16,LLM.fp4,28.6,18681,61.2
+NousResearch/Nous-Hermes-Llama2-13b,LLaMA ,10B,pytorch,float16,None,26.6,27069,62.6
+mosaicml/mpt-7b-chat,MPT,7B,pytorch,float16,None,53.8,14723,50
+bofenghuang/vigogne-2-7b-instruct,LLaMA ,7B,pytorch,float16,"BetterTransformer, LLM.fp4",29.9,6167,58.2
+mosaicml/mpt-7b-chat,MPT,7B,pytorch,float32,None,48.5,27405,50
+bofenghuang/vigogne-2-7b-instruct,LLaMA ,7B,pytorch,float16,LLM.fp4,28.9,6167,58.2
+mosaicml/mpt-7b-chat,MPT,7B,pytorch,float16,LLM.fp4,46.3,5947,50
+NousResearch/Nous-Hermes-Llama2-13b,LLaMA ,10B,pytorch,float32,None,24.7,51853,62.6
+NousResearch/Nous-Hermes-Llama2-13b,LLaMA ,10B,pytorch,float16,"BetterTransformer, LLM.fp4",24.4,9607,62.6
+THUDM/chatglm2-6b,ChatGLM,6B,pytorch,float16,LLM.fp4,42,13999,48.2
+THUDM/chatglm2-6b,ChatGLM,6B,pytorch,float32,None,42,13999,48.2
+THUDM/chatglm2-6b,ChatGLM,6B,pytorch,float16,None,41.8,13999,48.2
+THUDM/chatglm2-6b,ChatGLM,6B,pytorch,float16,LLM.int8,41.8,13999,48.2
+NousResearch/Nous-Hermes-Llama2-13b,LLaMA ,10B,pytorch,float16,LLM.fp4,22.1,9607,62.6
+mosaicml/mpt-30b-chat,MPT,30B,pytorch,float16,None,22.4,59179,61.2
+baichuan-inc/Baichuan-7B,Baichuan ,7B,pytorch,float32,None,36.5,28867,47.4
+HuggingFaceH4/starchat-beta,GPT-BigCode ,20B,pytorch,float32,None,24.6,61303,55.8
+facebook/opt-6.7b,OPT,7B,pytorch,float16,BetterTransformer,63.3,14745,41.9
+baichuan-inc/Baichuan-7B,Baichuan ,7B,pytorch,float16,None,34,15513,47.4
+KoboldAI/fairseq-dense-6.7B,XGLM,7B,pytorch,float16,None,52.6,14745,42.6
+openlm-research/open_llama_3b_v2,LLaMA ,3B,pytorch,float32,None,45.2,15303,43.4
+facebook/opt-6.7b,OPT,7B,pytorch,float16,None,52.1,14745,41.9
+Writer/camel-5b-hf,GPT-2,5B,pytorch,float16,BetterTransformer,84.7,11771,39.9
+Writer/camel-5b-hf,GPT-2,5B,pytorch,float16,"BetterTransformer, LLM.fp4",84.7,11773,39.9
+openlm-research/open_llama_3b_v2,LLaMA ,3B,pytorch,float16,BetterTransformer,42.6,8745,43.4
+KoboldAI/OPT-13B-Erebus,OPT,10B,pytorch,float16,BetterTransformer,45.5,26561,42.6
+aisquared/chopt-2_7b,OPT,3B,pytorch,float16,BetterTransformer,62.1,7293,40.6
+Writer/camel-5b-hf,GPT-2,5B,pytorch,float16,LLM.int8,69,11771,39.9
+Writer/camel-5b-hf,GPT-2,5B,pytorch,float16,LLM.fp4,68.5,11771,39.9
+Writer/camel-5b-hf,GPT-2,5B,pytorch,float16,None,68,11771,39.9
+openlm-research/open_llama_3b_v2,LLaMA ,3B,pytorch,float16,None,39.7,8745,43.4
+aisquared/chopt-2_7b,OPT,3B,pytorch,float32,None,54.3,12289,40.6
+KoboldAI/fairseq-dense-6.7B,XGLM,7B,pytorch,float32,None,41.3,27445,42.6
+cerebras/Cerebras-GPT-6.7B,GPT-2,7B,pytorch,float16,BetterTransformer,64.9,14863,39.6
+cerebras/Cerebras-GPT-6.7B,GPT-2,7B,pytorch,float16,"BetterTransformer, LLM.fp4",64.1,14863,39.6
+aisquared/chopt-2_7b,OPT,3B,pytorch,float16,None,51.8,7293,40.6
+baichuan-inc/Baichuan-7B,Baichuan ,7B,pytorch,float16,LLM.fp4,29.7,6939,47.4
+KoboldAI/fairseq-dense-2.7B,XGLM,3B,pytorch,float32,None,55.9,12287,40.1
+facebook/opt-6.7b,OPT,7B,pytorch,float16,"BetterTransformer, LLM.fp4",43.1,5951,41.9
+aisquared/chopt-1_3b,OPT,1B,pytorch,float16,BetterTransformer,82,4737,38.4
+KoboldAI/fairseq-dense-2.7B,XGLM,3B,pytorch,float16,None,51.5,7293,40.1
+facebook/opt-6.7b,OPT,7B,pytorch,float32,None,40.8,27445,41.9
+openlm-research/open_llama_3b_v2,LLaMA ,3B,pytorch,float16,"BetterTransformer, LLM.fp4",35.8,4255,43.4
+KoboldAI/fairseq-dense-6.7B,XGLM,7B,pytorch,float16,LLM.fp4,37.6,5951,42.6
+facebook/galactica-30b,OPT,30B,pytorch,float16,"BetterTransformer, LLM.fp4",27.1,18647,48.6
+togethercomputer/RedPajama-INCITE-Instruct-7B-v0.1,GPT-NeoX,7B,pytorch,float16,BetterTransformer,29,15243,46.9
+cerebras/Cerebras-GPT-6.7B,GPT-2,7B,pytorch,float16,LLM.int8,52.6,14863,39.6
+aisquared/chopt-1_3b,OPT,1B,pytorch,float16,None,68,4737,38.4
+aisquared/chopt-1_3b,OPT,1B,pytorch,float32,None,67.6,7063,38.4
+openlm-research/open_llama_3b_v2,LLaMA ,3B,pytorch,float16,LLM.fp4,35.1,4255,43.4
+facebook/xglm-7.5B,XGLM,9B,pytorch,float16,None,49.5,16353,39.8
+cerebras/Cerebras-GPT-6.7B,GPT-2,7B,pytorch,float16,LLM.fp4,50.8,14863,39.6
+cerebras/Cerebras-GPT-6.7B,GPT-2,7B,pytorch,float16,None,50.3,14863,39.6
+KoboldAI/OPT-13B-Erebus,OPT,10B,pytorch,float16,None,36.1,26561,42.6
+facebook/opt-6.7b,OPT,7B,pytorch,float16,LLM.fp4,38,5951,41.9
+upstage/llama-30b-instruct-2048,LLaMA ,30B,pytorch,float16,BetterTransformer,18.3,64597,67
+KoboldAI/OPT-13B-Erebus,OPT,10B,pytorch,float16,"BetterTransformer, LLM.fp4",35.7,9321,42.6
+aisquared/chopt-2_7b,OPT,3B,pytorch,float16,"BetterTransformer, LLM.fp4",42.6,3677,40.6
+Writer/camel-5b-hf,GPT-2,5B,pytorch,float32,None,45.9,21397,39.9
+MBZUAI/lamini-neo-1.3b,GPT-Neo,1B,pytorch,float32,None,61.7,7153,38
+aisquared/chopt-1_3b,OPT,1B,pytorch,float16,"BetterTransformer, LLM.fp4",56.5,2899,38.4
+cerebras/Cerebras-GPT-13B,GPT-2,10B,pytorch,float16,BetterTransformer,39.7,26719,40.8
+cerebras/Cerebras-GPT-13B,GPT-2,10B,pytorch,float16,"BetterTransformer, LLM.fp4",39.5,26719,40.8
+MBZUAI/lamini-neo-1.3b,GPT-Neo,1B,pytorch,float16,None,55.6,4737,38
+OpenAssistant/stablelm-7b-sft-v7-epoch-3,GPT-NeoX,8B,pytorch,float16,"BetterTransformer, LLM.fp4",51.3,7419,38.4
+aisquared/chopt-1_3b,OPT,1B,pytorch,float16,LLM.fp4,50.5,2899,38.4
+EleutherAI/gpt-neo-2.7B,GPT-Neo,3B,pytorch,float32,None,46.1,12405,39
+aisquared/chopt-2_7b,OPT,3B,pytorch,float16,LLM.fp4,38.6,3677,40.6
+OpenAssistant/stablelm-7b-sft-v7-epoch-3,GPT-NeoX,8B,pytorch,float16,BetterTransformer,49,17305,38.4
+cerebras/Cerebras-GPT-13B,GPT-2,10B,pytorch,float16,LLM.int8,36,26719,40.8
+cerebras/Cerebras-GPT-13B,GPT-2,10B,pytorch,float16,None,36,26719,40.8
+cerebras/Cerebras-GPT-13B,GPT-2,10B,pytorch,float16,LLM.fp4,36,26719,40.8
+OpenAssistant/stablelm-7b-sft-v7-epoch-3,GPT-NeoX,8B,pytorch,float16,LLM.fp4,45.5,7419,38.4
+EleutherAI/gpt-neo-2.7B,GPT-Neo,3B,pytorch,float16,None,42.4,7477,39
+MBZUAI/lamini-neo-1.3b,GPT-Neo,1B,pytorch,float16,"BetterTransformer, LLM.fp4",47.8,2983,38
+facebook/xglm-7.5B,XGLM,9B,pytorch,float32,None,38.2,30661,39.8
+OpenAssistant/stablelm-7b-sft-v7-epoch-3,GPT-NeoX,8B,pytorch,float16,None,43.9,17305,38.4
+togethercomputer/GPT-JT-6B-v0,GPT-J,6B,pytorch,float16,BetterTransformer,23.7,13717,49.6
+lxe/Cerebras-GPT-2.7B-Alpaca-SP,GPT-2,3B,pytorch,float16,"BetterTransformer, LLM.fp4",61.3,7349,36.2
+togethercomputer/RedPajama-INCITE-Instruct-7B-v0.1,GPT-NeoX,7B,pytorch,float16,"BetterTransformer, LLM.fp4",25.6,6451,46.9
+lxe/Cerebras-GPT-2.7B-Alpaca-SP,GPT-2,3B,pytorch,float16,BetterTransformer,60.6,7349,36.2
+PygmalionAI/metharme-1.3b,GPT-NeoX,1B,pytorch,float16,BetterTransformer,43.1,4831,38.3
+aisquared/dlite-v2-774m,GPT-2,800M,onnxruntime,float16,None,65.8,4287,35.8
+facebook/xglm-7.5B,XGLM,9B,pytorch,float16,LLM.fp4,36.9,7561,39.8
+Fredithefish/RedPajama-INCITE-Chat-3B-Instruction-Tuning-with-GPT-4,GPT-NeoX,3B,pytorch,float16,BetterTransformer,30.3,7591,42.8
+MBZUAI/lamini-neo-1.3b,GPT-Neo,1B,pytorch,float16,LLM.fp4,43.9,2983,38
+upstage/llama-30b-instruct-2048,LLaMA ,30B,pytorch,float16,None,17.5,64597,67
+KoboldAI/OPT-13B-Erebus,OPT,10B,pytorch,float16,LLM.fp4,29.9,9321,42.6
+OpenAssistant/oasst-sft-1-pythia-12b,GPT-NeoX,10B,pytorch,float16,"BetterTransformer, LLM.fp4",26.4,9299,45.4
+lxe/Cerebras-GPT-2.7B-Alpaca-SP,GPT-2,3B,pytorch,float32,None,53.5,12343,36.2
+lxe/Cerebras-GPT-2.7B-Alpaca-SP,GPT-2,3B,pytorch,float16,None,53.5,7351,36.2
+lxe/Cerebras-GPT-2.7B-Alpaca-SP,GPT-2,3B,pytorch,float16,LLM.int8,52.9,7349,36.2
+PygmalionAI/metharme-1.3b,GPT-NeoX,1B,pytorch,float32,None,40,7533,38.3
+togethercomputer/RedPajama-INCITE-Instruct-7B-v0.1,GPT-NeoX,7B,pytorch,float16,None,24.9,15245,46.9
+lxe/Cerebras-GPT-2.7B-Alpaca-SP,GPT-2,3B,pytorch,float16,LLM.fp4,52.1,7349,36.2
+togethercomputer/GPT-JT-6B-v0,GPT-J,6B,pytorch,float32,None,22.9,25259,49.6
+OpenAssistant/oasst-sft-1-pythia-12b,GPT-NeoX,10B,pytorch,float16,BetterTransformer,26,24773,45.4
+cerebras/Cerebras-GPT-6.7B,GPT-2,7B,pytorch,float32,None,34.7,27563,39.6
+PygmalionAI/metharme-1.3b,GPT-NeoX,1B,pytorch,float16,"BetterTransformer, LLM.fp4",38.3,3175,38.3
+gpt2-medium,GPT-2,400M,onnxruntime,float16,None,101,3219,33.7
+gpt2-medium,GPT-2,400M,onnxruntime,float32,None,101,4251,33.7
+PygmalionAI/metharme-1.3b,GPT-NeoX,1B,pytorch,float16,None,38,4831,38.3
+KoboldAI/fairseq-dense-355M,XGLM,400M,pytorch,float32,None,74.1,3413,34.2
+KoboldAI/fairseq-dense-355M,XGLM,400M,pytorch,float16,None,73,2721,34.2
+cerebras/Cerebras-GPT-1.3B,GPT-2,1B,pytorch,float16,BetterTransformer,87,4653,33.5
+cerebras/Cerebras-GPT-1.3B,GPT-2,1B,pytorch,float16,"BetterTransformer, LLM.fp4",85.5,4653,33.5
+togethercomputer/GPT-JT-6B-v0,GPT-J,6B,pytorch,float16,None,22.2,13717,49.6
+EleutherAI/gpt-neo-2.7B,GPT-Neo,3B,pytorch,float16,LLM.fp4,34.2,3817,39
+aisquared/dlite-v2-774m,GPT-2,800M,pytorch,float16,"BetterTransformer, LLM.fp4",46.7,3673,35.8
+stabilityai/stablelm-tuned-alpha-3b,GPT-NeoX,4B,pytorch,float16,BetterTransformer,61.7,9237,34.3
+Fredithefish/RedPajama-INCITE-Chat-3B-Instruction-Tuning-with-GPT-4,GPT-NeoX,3B,pytorch,float32,None,27.6,12821,42.8
+xhyi/PT_GPTNEO350_ATG,GPT-Neo,400M,onnxruntime,float16,None,121,3235,32.7
+aisquared/dlite-v2-774m,GPT-2,800M,pytorch,float16,BetterTransformer,45.7,3673,35.8
+gpt2-medium,GPT-2,400M,pytorch,float16,"BetterTransformer, LLM.fp4",68.5,2765,33.7
+MBZUAI/LaMini-GPT-1.5B,GPT-2,2B,pytorch,float16,BetterTransformer,36,5125,38
+cerebras/Cerebras-GPT-1.3B,GPT-2,1B,pytorch,float32,None,70.4,7155,33.5
+cerebras/Cerebras-GPT-1.3B,GPT-2,1B,pytorch,float16,LLM.fp4,69.9,4653,33.5
+facebook/xglm-4.5B,XGLM,5B,pytorch,float32,None,36.5,19429,37.7
+BreadAi/PM_modelV2,GPT-2,300M,onnxruntime,float16,None,167,3233,32.2
+gpt2-medium,GPT-2,400M,pytorch,float16,BetterTransformer,64.9,2765,33.7
+cerebras/Cerebras-GPT-1.3B,GPT-2,1B,pytorch,float16,LLM.int8,68.5,4653,33.5
+BreadAi/PM_modelV2,GPT-2,300M,onnxruntime,float32,None,163,4307,32.2
+TFLai/gpt2-turkish-uncased,GPT-2,200M,onnxruntime,float16,None,193,2753,32.1
+MBZUAI/LaMini-GPT-1.5B,GPT-2,2B,pytorch,float16,"BetterTransformer, LLM.fp4",35.3,5125,38
+TFLai/gpt2-turkish-uncased,GPT-2,200M,onnxruntime,float32,None,171,3235,32.1
+gpt2-medium,GPT-2,400M,pytorch,float32,None,62.9,3421,33.7
+BreadAi/PM_modelV2,GPT-2,300M,pytorch,float16,BetterTransformer,133,2607,32.2
+BreadAi/PM_modelV2,GPT-2,300M,pytorch,float16,"BetterTransformer, LLM.fp4",132,2607,32.2
+cerebras/Cerebras-GPT-1.3B,GPT-2,1B,pytorch,float16,None,65.4,4653,33.5
+stabilityai/stablelm-tuned-alpha-3b,GPT-NeoX,4B,pytorch,float16,"BetterTransformer, LLM.fp4",53.8,4891,34.3
+gpt2-medium,GPT-2,400M,pytorch,float16,None,61,2765,33.7
+PygmalionAI/metharme-1.3b,GPT-NeoX,1B,pytorch,float16,LLM.fp4,34.1,3175,38.3
+TFLai/gpt2-turkish-uncased,GPT-2,200M,pytorch,float16,BetterTransformer,134,2307,32.1
+TFLai/gpt2-turkish-uncased,GPT-2,200M,pytorch,float16,"BetterTransformer, LLM.fp4",134,2307,32.1
+BreadAi/PM_modelV2,GPT-2,300M,pytorch,float32,None,120,3149,32.2
+stabilityai/stablelm-tuned-alpha-3b,GPT-NeoX,4B,pytorch,float16,None,53.2,9237,34.3
+EleutherAI/pythia-410m-deduped,GPT-NeoX,400M,onnxruntime,float32,None,69,4251,33.2
+BreadAi/PM_modelV2,GPT-2,300M,pytorch,float16,None,114,2607,32.2
+gpt2-medium,GPT-2,400M,pytorch,float16,LLM.fp4,59.9,2765,33.7
+PygmalionAI/pygmalion-350m,OPT,400M,onnxruntime,float16,None,112,3235,32.2
+EleutherAI/gpt-neo-2.7B,GPT-Neo,3B,pytorch,float16,"BetterTransformer, LLM.fp4",32.4,3817,39
+BreadAi/PM_modelV2,GPT-2,300M,pytorch,float16,LLM.fp4,113,2607,32.2
+BreadAi/PM_modelV2,GPT-2,300M,pytorch,float16,LLM.int8,113,2607,32.2
+gpt2-medium,GPT-2,400M,pytorch,float16,LLM.int8,59.5,2765,33.7
+TFLai/gpt2-turkish-uncased,GPT-2,200M,pytorch,float16,None,116,2307,32.1
+TFLai/gpt2-turkish-uncased,GPT-2,200M,pytorch,float16,LLM.fp4,117,2307,32.1
+facebook/galactica-30b,OPT,30B,pytorch,float16,BetterTransformer,22.1,59213,48.6
+TFLai/gpt2-turkish-uncased,GPT-2,200M,pytorch,float16,LLM.int8,114,2307,32.1
+aisquared/dlite-v2-774m,GPT-2,800M,pytorch,float32,None,41.8,5157,35.8
+Fredithefish/RedPajama-INCITE-Chat-3B-Instruction-Tuning-with-GPT-4,GPT-NeoX,3B,pytorch,float16,None,26.5,7591,42.8
+BreadAi/MusePy-1-2,GPT-NeoX,70M,onnxruntime,float32,None,226,2721,31.6
+facebook/xglm-4.5B,XGLM,5B,pytorch,float16,None,35,11111,37.7
+SebastianSchramm/Cerebras-GPT-111M-instruction,GPT-2,100M,onnxruntime,float16,None,225,2719,31.5
+BreadAi/MusePy-1-2,GPT-NeoX,70M,pytorch,float16,BetterTransformer,170,2205,31.6
+SebastianSchramm/Cerebras-GPT-111M-instruction,GPT-2,100M,onnxruntime,float32,None,209,3361,31.5
+OpenAssistant/stablelm-7b-sft-v7-epoch-3,GPT-NeoX,8B,pytorch,float32,None,32.9,32313,38.4
+BreadAi/MusePy-1-2,GPT-NeoX,70M,pytorch,float32,None,157,2347,31.6
+BreadAi/MusePy-1-2,GPT-NeoX,70M,pytorch,float16,None,154,2205,31.6
+togethercomputer/RedPajama-INCITE-Instruct-7B-v0.1,GPT-NeoX,7B,pytorch,float32,None,22.9,28323,46.9
+SebastianSchramm/Cerebras-GPT-111M-instruction,GPT-2,100M,pytorch,float16,BetterTransformer,180,2295,31.5
+SebastianSchramm/Cerebras-GPT-111M-instruction,GPT-2,100M,pytorch,float16,"BetterTransformer, LLM.fp4",179,2295,31.5
+Fredithefish/RedPajama-INCITE-Chat-3B-Instruction-Tuning-with-GPT-4,GPT-NeoX,3B,pytorch,float16,"BetterTransformer, LLM.fp4",26.2,4047,42.8
+BreadAi/MusePy-1-2,GPT-NeoX,70M,pytorch,float16,"BetterTransformer, LLM.fp4",148,2171,31.6
+PygmalionAI/pygmalion-350m,OPT,400M,onnxruntime,float32,None,88.5,4265,32.2
+SebastianSchramm/Cerebras-GPT-111M-instruction,GPT-2,100M,pytorch,float16,None,158,2295,31.5
+aisquared/dlite-v2-774m,GPT-2,800M,pytorch,float16,LLM.int8,40.5,3673,35.8
+PygmalionAI/pygmalion-350m,OPT,400M,pytorch,float16,BetterTransformer,85.5,2673,32.2
+SebastianSchramm/Cerebras-GPT-111M-instruction,GPT-2,100M,pytorch,float32,None,157,2529,31.5
+KoboldAI/fairseq-dense-355M,XGLM,400M,pytorch,float16,LLM.fp4,49.8,2307,34.2
+BreadAi/MusePy-1-2,GPT-NeoX,70M,pytorch,float16,LLM.fp4,133,2171,31.6
+SebastianSchramm/Cerebras-GPT-111M-instruction,GPT-2,100M,pytorch,float16,LLM.fp4,154,2295,31.5
+SebastianSchramm/Cerebras-GPT-111M-instruction,GPT-2,100M,pytorch,float16,LLM.int8,152,2295,31.5
+KoboldAI/fairseq-dense-125M,XGLM,200M,pytorch,float32,None,143,2549,31.5
+KoboldAI/fairseq-dense-125M,XGLM,200M,pytorch,float16,None,140,2275,31.5
+aisquared/dlite-v2-774m,GPT-2,800M,pytorch,float16,None,40,3673,35.8
+stabilityai/stablelm-tuned-alpha-3b,GPT-NeoX,4B,pytorch,float16,LLM.fp4,48.1,4891,34.3
+stabilityai/stablelm-tuned-alpha-3b,GPT-NeoX,4B,pytorch,float32,None,47.8,16175,34.3
+EleutherAI/gpt-neo-125m,GPT-Neo,200M,onnxruntime,float16,None,214,2783,31.2
+facebook/galactica-30b,OPT,30B,pytorch,float16,LLM.fp4,21.7,18647,48.6
+PygmalionAI/pygmalion-350m,OPT,400M,pytorch,float32,None,77.5,3315,32.2
+togethercomputer/RedPajama-INCITE-Instruct-7B-v0.1,GPT-NeoX,7B,pytorch,float16,LLM.fp4,22.7,6451,46.9
+EleutherAI/gpt-neo-125m,GPT-Neo,200M,onnxruntime,float32,None,179,3243,31.2
+togethercomputer/GPT-JT-6B-v0,GPT-J,6B,pytorch,float16,"BetterTransformer, LLM.fp4",21.2,5993,49.6
+concedo/OPT-19M-ChatSalad,OPT,30M,onnxruntime,float16,None,299,2277,31
+concedo/OPT-19M-ChatSalad,OPT,30M,onnxruntime,float32,None,258,2379,31
+xhyi/PT_GPTNEO350_ATG,GPT-Neo,400M,pytorch,float32,None,63.3,3489,32.7
+concedo/OPT-19M-ChatSalad,OPT,30M,pytorch,float16,BetterTransformer,223,2079,31
+PygmalionAI/pygmalion-350m,OPT,400M,pytorch,float16,None,73.5,2673,32.2
+concedo/OPT-19M-ChatSalad,OPT,30M,pytorch,float32,None,211,2115,31
+concedo/OPT-19M-ChatSalad,OPT,30M,pytorch,float16,None,200,2079,31
+aisquared/dlite-v2-774m,GPT-2,800M,pytorch,float16,LLM.fp4,38.8,3673,35.8
+EleutherAI/pythia-160m-deduped,GPT-NeoX,200M,onnxruntime,float32,None,130,3217,31.2
+EleutherAI/gpt-neo-125m,GPT-Neo,200M,pytorch,float32,None,122,2589,31.2
+KoboldAI/fairseq-dense-125M,XGLM,200M,pytorch,float16,LLM.fp4,94.3,2173,31.5
+facebook/opt-125m,OPT,200M,onnxruntime,float16,None,211,2731,30.8
+roneneldan/TinyStories-1M,GPT-Neo,7M,onnxruntime,float16,None,313,2215,30.7
+roneneldan/TinyStories-1M,GPT-Neo,7M,onnxruntime,float32,None,331,2271,30.7
+EleutherAI/gpt-neo-125m,GPT-Neo,200M,pytorch,float16,None,112,2335,31.2
+bigcode/tiny_starcoder_py,GPT-BigCode ,200M,pytorch,float32,None,115,2773,31.1
+facebook/opt-125m,OPT,200M,pytorch,float16,BetterTransformer,163,2275,30.8
+xhyi/PT_GPTNEO350_ATG,GPT-Neo,400M,pytorch,float16,None,57.8,2821,32.7
+facebook/opt-125m,OPT,200M,onnxruntime,float32,None,155,3235,30.8
+bigcode/tiny_starcoder_py,GPT-BigCode ,200M,pytorch,float16,None,108,2429,31.1
+roneneldan/TinyStories-1M,GPT-Neo,7M,pytorch,float32,None,177,2097,30.7
+roneneldan/TinyStories-1M,GPT-Neo,7M,pytorch,float16,None,171,2083,30.7
+facebook/opt-125m,OPT,200M,pytorch,float32,None,143,2551,30.8
+facebook/opt-125m,OPT,200M,pytorch,float16,None,141,2275,30.8
+concedo/OPT-19M-ChatSalad,OPT,30M,pytorch,float16,"BetterTransformer, LLM.fp4",109,2073,31
+concedo/OPT-19M-ChatSalad,OPT,30M,pytorch,float16,LLM.fp4,107,2073,31
+EleutherAI/pythia-160m-deduped,GPT-NeoX,200M,pytorch,float16,BetterTransformer,90.1,2409,31.2
+roneneldan/TinyStories-1M,GPT-Neo,7M,pytorch,float16,LLM.fp4,131,2081,30.7
+roneneldan/TinyStories-33M,GPT-Neo,100M,onnxruntime,float16,None,467,2729,30.3
+EleutherAI/gpt-neo-125m,GPT-Neo,200M,pytorch,float16,"BetterTransformer, LLM.fp4",87,2213,31.2
+EleutherAI/gpt-neo-125m,GPT-Neo,200M,pytorch,float16,LLM.fp4,87,2213,31.2
+roneneldan/TinyStories-33M,GPT-Neo,100M,onnxruntime,float32,None,385,3261,30.3
+roneneldan/TinyStories-1M,GPT-Neo,7M,pytorch,float16,"BetterTransformer, LLM.fp4",125,2081,30.7
+roneneldan/TinyStories-33M,GPT-Neo,100M,pytorch,float32,None,313,2329,30.3
+roneneldan/TinyStories-33M,GPT-Neo,100M,pytorch,float16,None,296,2195,30.3
+roneneldan/TinyStories-33M,GPT-Neo,100M,pytorch,float16,"BetterTransformer, LLM.fp4",233,2161,30.3
+roneneldan/TinyStories-33M,GPT-Neo,100M,pytorch,float16,LLM.fp4,234,2161,30.3
+facebook/opt-125m,OPT,200M,pytorch,float16,"BetterTransformer, LLM.fp4",107,2173,30.8
+MBZUAI/LaMini-GPT-1.5B,GPT-2,2B,pytorch,float32,None,31.1,8161,38
+OpenAssistant/oasst-sft-1-pythia-12b,GPT-NeoX,10B,pytorch,float16,LLM.fp4,22.9,9299,45.4
+upstage/llama-30b-instruct-2048,LLaMA ,30B,pytorch,float16,"BetterTransformer, LLM.fp4",16.2,20371,67
+EleutherAI/pythia-160m-deduped,GPT-NeoX,200M,pytorch,float32,None,81.3,2739,31.2
+BreadAi/MusePy-1-2,GPT-NeoX,70M,pytorch,float16,LLM.int8,69.4,2189,31.6
+EleutherAI/pythia-160m-deduped,GPT-NeoX,200M,pytorch,float16,None,79.4,2409,31.2
+facebook/opt-125m,OPT,200M,pytorch,float16,LLM.fp4,97.1,2173,30.8
+OpenAssistant/oasst-sft-1-pythia-12b,GPT-NeoX,10B,pytorch,float16,None,22.8,24773,45.4
+MBZUAI/LaMini-GPT-1.5B,GPT-2,2B,pytorch,float16,None,30.8,5125,38
+MBZUAI/LaMini-GPT-1.5B,GPT-2,2B,pytorch,float16,LLM.int8,30.8,5125,38
+bigcode/tiny_starcoder_py,GPT-BigCode ,200M,pytorch,float16,LLM.fp4,80,2247,31.1
+EleutherAI/pythia-160m-deduped,GPT-NeoX,200M,pytorch,float16,"BetterTransformer, LLM.fp4",76.9,2287,31.2
+MBZUAI/LaMini-GPT-1.5B,GPT-2,2B,pytorch,float16,LLM.fp4,30.7,5125,38
+roneneldan/TinyStories-3M,GPT-Neo,10M,onnxruntime,float16,None,336,2271,30
+facebook/xglm-564M,XGLM,800M,pytorch,float32,None,75.2,4217,31.2
+roneneldan/TinyStories-3M,GPT-Neo,10M,onnxruntime,float32,None,324,2343,30
+roneneldan/TinyStories-28M,GPT-Neo,80M,onnxruntime,float16,None,318,2475,30
+roneneldan/TinyStories-28M,GPT-Neo,80M,onnxruntime,float32,None,241,2717,30
+EleutherAI/pythia-410m-deduped,GPT-NeoX,400M,pytorch,float16,BetterTransformer,46.7,2923,33.2
+togethercomputer/GPT-JT-6B-v0,GPT-J,6B,pytorch,float16,LLM.fp4,20.5,5993,49.6
+bigcode/gpt_bigcode-santacoder,GPT-BigCode ,1B,pytorch,float32,None,97.1,6333,30.6
+roneneldan/TinyStories-8M,GPT-Neo,30M,onnxruntime,float16,None,314,2351,29.9
+PygmalionAI/pygmalion-350m,OPT,400M,pytorch,float16,"BetterTransformer, LLM.fp4",55.2,2257,32.2
+anton-l/gpt-j-tiny-random,GPT-J,80M,pytorch,float16,BetterTransformer,78.1,2221,31
+anton-l/gpt-j-tiny-random,GPT-J,80M,pytorch,float32,None,77.5,2377,31
+roneneldan/TinyStories-8M,GPT-Neo,30M,onnxruntime,float32,None,252,2477,29.9
+roneneldan/TinyStories-28M,GPT-Neo,80M,pytorch,float32,None,181,2273,30
+roneneldan/TinyStories-3M,GPT-Neo,10M,pytorch,float32,None,179,2115,30
+facebook/xglm-564M,XGLM,800M,pytorch,float16,None,70.9,3123,31.2
+Corianas/Quokka_590m,GPT-2,700M,onnxruntime,float16,None,127,4243,30.2
+roneneldan/TinyStories-3M,GPT-Neo,10M,pytorch,float16,None,172,2099,30
+roneneldan/TinyStories-28M,GPT-Neo,80M,pytorch,float16,None,171,2167,30
+anton-l/gpt-j-tiny-random,GPT-J,80M,pytorch,float16,None,75.8,2221,31
+bigcode/gpt_bigcode-santacoder,GPT-BigCode ,1B,pytorch,float16,None,90.1,4273,30.6
+roneneldan/TinyStories-8M,GPT-Neo,30M,pytorch,float32,None,183,2155,29.9
+EleutherAI/pythia-160m-deduped,GPT-NeoX,200M,pytorch,float16,LLM.fp4,68.5,2289,31.2
+roneneldan/TinyStories-8M,GPT-Neo,30M,pytorch,float16,None,174,2121,29.9
+Corianas/Quokka_590m,GPT-2,700M,pytorch,float16,BetterTransformer,113,3275,30.2
+Corianas/Quokka_590m,GPT-2,700M,pytorch,float16,"BetterTransformer, LLM.fp4",113,3275,30.2
+KoboldAI/OPT-13B-Erebus,OPT,10B,pytorch,float32,None,24.5,51075,42.6
+anton-l/gpt-j-tiny-random,GPT-J,80M,pytorch,float16,"BetterTransformer, LLM.fp4",70.9,2199,31
+roneneldan/TinyStories-3M,GPT-Neo,10M,pytorch,float16,LLM.fp4,129,2095,30
+roneneldan/TinyStories-3M,GPT-Neo,10M,pytorch,float16,"BetterTransformer, LLM.fp4",128,2095,30
+roneneldan/TinyStories-28M,GPT-Neo,80M,pytorch,float16,LLM.fp4,126,2143,30
+TFLai/gpt2-turkish-uncased,GPT-2,200M,pytorch,float32,None,53.2,2561,32.1
+roneneldan/TinyStories-28M,GPT-Neo,80M,pytorch,float16,"BetterTransformer, LLM.fp4",123,2143,30
+roneneldan/TinyStories-33M,GPT-Neo,100M,pytorch,float16,LLM.int8,92.6,2175,30.3
+roneneldan/TinyStories-8M,GPT-Neo,30M,pytorch,float16,LLM.fp4,127,2111,29.9
+roneneldan/TinyStories-8M,GPT-Neo,30M,pytorch,float16,"BetterTransformer, LLM.fp4",126,2111,29.9
+anton-l/gpt-j-tiny-random,GPT-J,80M,pytorch,float16,LLM.fp4,68,2199,31
+Corianas/Quokka_590m,GPT-2,700M,pytorch,float32,None,94.3,4411,30.2
+Corianas/Quokka_590m,GPT-2,700M,pytorch,float16,LLM.int8,91.7,3275,30.2
+PygmalionAI/pygmalion-350m,OPT,400M,pytorch,float16,LLM.fp4,50,2257,32.2
+Corianas/Quokka_590m,GPT-2,700M,pytorch,float16,LLM.fp4,87.7,3275,30.2
+Corianas/Quokka_590m,GPT-2,700M,pytorch,float16,None,85.5,3275,30.2
+bigcode/gpt_bigcode-santacoder,GPT-BigCode ,1B,pytorch,float16,LLM.fp4,67.6,2829,30.6
+EleutherAI/pythia-410m-deduped,GPT-NeoX,400M,pytorch,float32,None,41.5,3679,33.2
+Fredithefish/RedPajama-INCITE-Chat-3B-Instruction-Tuning-with-GPT-4,GPT-NeoX,3B,pytorch,float16,LLM.fp4,23.8,4047,42.8
+xhyi/PT_GPTNEO350_ATG,GPT-Neo,400M,pytorch,float16,LLM.fp4,43.9,2407,32.7
+EleutherAI/pythia-410m-deduped,GPT-NeoX,400M,pytorch,float16,None,40.8,2923,33.2
+EleutherAI/pythia-410m-deduped,GPT-NeoX,400M,pytorch,float16,"BetterTransformer, LLM.fp4",40,2511,33.2
+xhyi/PT_GPTNEO350_ATG,GPT-Neo,400M,pytorch,float16,"BetterTransformer, LLM.fp4",42,2407,32.7
+concedo/OPT-19M-ChatSalad,OPT,30M,pytorch,float16,LLM.int8,52.6,2083,31
+facebook/galactica-30b,OPT,30B,pytorch,float16,None,20,59213,48.6
+facebook/xglm-564M,XGLM,800M,pytorch,float16,LLM.fp4,49.3,2709,31.2
+roneneldan/TinyStories-1M,GPT-Neo,7M,pytorch,float16,LLM.int8,48.8,2089,30.7
+OpenAssistant/stablelm-7b-sft-v7-epoch-3,GPT-NeoX,8B,pytorch,float16,LLM.int8,26,10849,38.4
+EleutherAI/pythia-410m-deduped,GPT-NeoX,400M,pytorch,float16,LLM.fp4,34.8,2511,33.2
+roneneldan/TinyStories-28M,GPT-Neo,80M,pytorch,float16,LLM.int8,47.8,2165,30
+roneneldan/TinyStories-3M,GPT-Neo,10M,pytorch,float16,LLM.int8,47.6,2105,30
+roneneldan/TinyStories-8M,GPT-Neo,30M,pytorch,float16,LLM.int8,47.2,2123,29.9
+beomi/KoAlpaca-Polyglot-5.8B,GPT-NeoX,6B,pytorch,float16,BetterTransformer,35.8,13391,31.9
+upstage/llama-30b-instruct-2048,LLaMA ,30B,pytorch,float16,LLM.fp4,15.2,20371,67
+anton-l/gpt-j-tiny-random,GPT-J,80M,onnxruntime,float16,None,38.9,2479,31
+EleutherAI/pythia-160m-deduped,GPT-NeoX,200M,pytorch,float16,LLM.int8,36.9,2345,31.2
+facebook/xglm-4.5B,XGLM,5B,pytorch,float16,LLM.fp4,25.1,5211,37.7
+anton-l/gpt-j-tiny-random,GPT-J,80M,onnxruntime,float32,None,37.2,2741,31
+anton-l/gpt-j-tiny-random,GPT-J,80M,pytorch,float16,LLM.int8,36.1,2217,31
+KoboldAI/fairseq-dense-125M,XGLM,200M,pytorch,float16,LLM.int8,33.3,2215,31.5
+cerebras/Cerebras-GPT-13B,GPT-2,10B,pytorch,float32,None,21.9,51235,40.8
+facebook/opt-125m,OPT,200M,pytorch,float16,LLM.int8,34.8,2215,30.8
+beomi/KoAlpaca-Polyglot-5.8B,GPT-NeoX,6B,pytorch,float16,"BetterTransformer, LLM.fp4",31.4,5681,31.9
+h2oai/h2ogpt-gm-oasst1-en-1024-20b,GPT-NeoX,20B,pytorch,float16,"BetterTransformer, LLM.fp4",18.8,14233,46.7
+Salesforce/codegen-6B-nl,CodeGen,7B,pytorch,float16,BetterTransformer,20.3,15673,42.8
+beomi/KoAlpaca-Polyglot-5.8B,GPT-NeoX,6B,pytorch,float16,None,30.5,13391,31.9
+EleutherAI/gpt-neo-125m,GPT-Neo,200M,pytorch,float16,LLM.int8,31.8,2275,31.2
+stabilityai/stablelm-tuned-alpha-3b,GPT-NeoX,4B,pytorch,float16,LLM.int8,26.3,6299,34.3
+Salesforce/codegen-16B-nl,CodeGen,20B,pytorch,float16,BetterTransformer,18.6,32779,46.2
+h2oai/h2ogpt-gm-oasst1-en-1024-20b,GPT-NeoX,20B,pytorch,float16,BetterTransformer,18.3,41431,46.7
+Salesforce/codegen-16B-nl,CodeGen,20B,pytorch,float16,"BetterTransformer, LLM.fp4",18.4,11669,46.2
+bigcode/tiny_starcoder_py,GPT-BigCode ,200M,pytorch,float16,LLM.int8,29.5,2323,31.1
+OpenAssistant/oasst-sft-1-pythia-12b,GPT-NeoX,10B,pytorch,float32,None,18.5,47361,45.4
+beomi/KoAlpaca-Polyglot-5.8B,GPT-NeoX,6B,pytorch,float32,None,27.9,24613,31.9
+mosaicml/mpt-7b-chat,MPT,7B,pytorch,float16,LLM.int8,17,8731,50
+Salesforce/codegen-6B-nl,CodeGen,7B,pytorch,float32,None,19.2,29147,42.8
+beomi/KoAlpaca-Polyglot-5.8B,GPT-NeoX,6B,pytorch,float16,LLM.fp4,27.1,192,31.9
+Salesforce/codegen-6B-nl,CodeGen,7B,pytorch,float16,None,19,15673,42.8
+Salesforce/codegen-6B-nl,CodeGen,7B,pytorch,float16,"BetterTransformer, LLM.fp4",18.8,6617,42.8
+h2oai/h2ogpt-gm-oasst1-en-1024-20b,GPT-NeoX,20B,pytorch,float16,LLM.fp4,17.3,14233,46.7
+Salesforce/codegen-16B-nl,CodeGen,20B,pytorch,float16,None,17.4,32779,46.2
+Salesforce/codegen-16B-nl,CodeGen,20B,pytorch,float16,LLM.fp4,17.2,11669,46.2
+Salesforce/codegen-6B-nl,CodeGen,7B,pytorch,float16,LLM.fp4,18.1,6617,42.8
+h2oai/h2ogpt-gm-oasst1-en-1024-20b,GPT-NeoX,20B,pytorch,float16,None,16.7,41431,46.7
+bigcode/gpt_bigcode-santacoder,GPT-BigCode ,1B,pytorch,float16,LLM.int8,24.2,3309,30.6
+HuggingFaceH4/starchat-beta,GPT-BigCode ,20B,pytorch,float16,LLM.int8,14.5,18455,55.8
+PygmalionAI/metharme-1.3b,GPT-NeoX,1B,pytorch,float16,LLM.int8,18.1,3729,38.3
+aisquared/chopt-1_3b,OPT,1B,pytorch,float16,LLM.int8,17,3441,38.4
+facebook/opt-66b,OPT,70B,pytorch,float16,"BetterTransformer, LLM.fp4",14.6,37997,46.2
+KoboldAI/fairseq-dense-355M,XGLM,400M,pytorch,float16,LLM.int8,17.3,2467,34.2
+EleutherAI/pythia-410m-deduped,GPT-NeoX,400M,pytorch,float16,LLM.int8,17.2,2675,33.2
+MBZUAI/lamini-neo-1.3b,GPT-Neo,1B,pytorch,float16,LLM.int8,15.8,3537,38
+Salesforce/codegen-16B-nl,CodeGen,20B,pytorch,float32,None,13.9,192,46.2
+facebook/xglm-564M,XGLM,800M,pytorch,float16,LLM.int8,17,2869,31.2
+PygmalionAI/pygmalion-350m,OPT,400M,pytorch,float16,LLM.int8,16.3,2417,32.2
+mosaicml/mpt-30b-chat,MPT,30B,pytorch,float16,LLM.int8,12,31449,61.2
+xhyi/PT_GPTNEO350_ATG,GPT-Neo,400M,pytorch,float16,LLM.int8,15.7,2547,32.7
+beomi/KoAlpaca-Polyglot-5.8B,GPT-NeoX,6B,pytorch,float16,LLM.int8,15.2,8157,31.9
+Fredithefish/RedPajama-INCITE-Chat-3B-Instruction-Tuning-with-GPT-4,GPT-NeoX,3B,pytorch,float16,LLM.int8,13.1,5335,42.8
+togethercomputer/RedPajama-INCITE-Instruct-7B-v0.1,GPT-NeoX,7B,pytorch,float16,LLM.int8,12.6,9261,46.9
+facebook/opt-6.7b,OPT,7B,pytorch,float16,LLM.int8,13.2,8705,41.9
+facebook/opt-66b,OPT,70B,pytorch,float16,LLM.fp4,12.6,37997,46.2
+KoboldAI/fairseq-dense-6.7B,XGLM,7B,pytorch,float16,LLM.int8,13,8689,42.6
+baichuan-inc/Baichuan-7B,Baichuan ,7B,pytorch,float16,LLM.int8,12.4,9895,47.4
+aisquared/chopt-2_7b,OPT,3B,pytorch,float16,LLM.int8,13.1,4841,40.6
+KoboldAI/fairseq-dense-2.7B,XGLM,3B,pytorch,float16,LLM.int8,13,4841,40.1
+facebook/xglm-7.5B,XGLM,9B,pytorch,float16,LLM.int8,13,10313,39.8
+stabilityai/FreeWilly2,LLaMA ,70B,pytorch,float16,LLM.fp4,10.6,40131,71.4
+OpenAssistant/oasst-sft-1-pythia-12b,GPT-NeoX,10B,pytorch,float16,LLM.int8,12.2,14243,45.4
+openlm-research/open_llama_3b_v2,LLaMA ,3B,pytorch,float16,LLM.int8,12,5859,43.4
+EleutherAI/gpt-neo-2.7B,GPT-Neo,3B,pytorch,float16,LLM.int8,12.1,5031,39
+bofenghuang/vigogne-2-7b-instruct,LLaMA ,7B,pytorch,float16,LLM.int8,10.2,9189,58.2
+togethercomputer/GPT-JT-6B-v0,GPT-J,6B,pytorch,float16,LLM.int8,10.6,8453,49.6
+Salesforce/codegen-16B-nl,CodeGen,20B,pytorch,float16,LLM.int8,10.7,18449,46.2
+Salesforce/codegen-6B-nl,CodeGen,7B,pytorch,float16,LLM.int8,10.9,9477,42.8
+KoboldAI/OPT-13B-Erebus,OPT,10B,pytorch,float16,LLM.int8,10.3,14735,42.6
+h2oai/h2ogpt-gm-oasst1-en-1024-20b,GPT-NeoX,20B,pytorch,float16,LLM.int8,9.62,22779,46.7
+facebook/galactica-30b,OPT,30B,pytorch,float16,LLM.int8,8.77,31289,48.6
+NousResearch/Nous-Hermes-Llama2-13b,LLaMA ,10B,pytorch,float16,LLM.int8,8.33,15523,62.6
+facebook/xglm-4.5B,XGLM,5B,pytorch,float16,LLM.int8,8.55,6951,37.7
+facebook/opt-66b,OPT,70B,pytorch,float16,LLM.int8,6.58,65767,46.2
+upstage/llama-30b-instruct-2048,LLaMA ,30B,pytorch,float16,LLM.int8,5.49,35017,67
+stabilityai/FreeWilly2,LLaMA ,70B,pytorch,float16,LLM.int8,4.03,69265,71.4
